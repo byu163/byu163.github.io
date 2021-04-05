@@ -1,7 +1,58 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <title>GR Official Github Site</title>
-        <h1>Welcome</h1>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GR Official Site</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">GR</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/warships.html" class="navbar__links">Warships [IN DEVELOPMENT]</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/shop.html" class="navbar__links">Shop</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/News.html" class="navbar__links">News</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Warships</h1>
+                <p>The worlds next battle royale game.</p>
+                <button class="main__btn"><a href="/warships.html">Learn More</a></a></button>
+            </div>
+            <div class="ws__img0--containter">
+                <img src="assets/images/GRLC.svg" alt="pic1" id="main__img">
+            </div>
+        </div>
+        <p>For tos click this button</p>
+        <button class="tos_btn"><a href="/ToS.html">ToS</a></a></button>
+    </div>
+    <script src="app.js"></script>
+</body>
 </html>
