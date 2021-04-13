@@ -76,6 +76,9 @@
     width: 100%;
 }
 
+.navbar__input {
+    color: #ffffff;
+}
 .button {
     display: flex;
     justify-content: center;
